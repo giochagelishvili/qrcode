@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Outfit', sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #D5E1EF;
+}
+
+.container {
+    width: 28.8rem;
+    padding: 1.6rem;
+    border-radius: 2rem;
+    background-color: white;
+}
+
+#qr-code {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.text-container {
+    margin: 2.4rem 0;
+}
+
+.text-container h1, p {
+    text-align: center;
+    font-style: normal;
+}
+
+.text-container h1 {
+    font-weight: 700;
+    font-size: 2.2rem;
+
+    line-height: 2.8rem;
+}
+
+.text-container p {
+    font-weight: 400;
+    font-size: 1.5rem;
+
+    line-height: 1.9rem;
+    letter-spacing: 0.19px;
+
+    margin-top: 1.6rem;
+    padding: 0 2rem;
+
+    color: #7D889E;
+}
